@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_URL = import.meta.env.VITE_API_URL || "https://tree-hierarchy-parser-api.onrender.com";
 
 // Recursively render a nested tree object as an indented list
 function TreeNode({ name, children, depth = 0 }) {
